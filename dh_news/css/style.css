@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --red-color: #ec183f;
+    --gray-color: #ccc;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header h1 {
+    color: var(--red-color);
+    font-size: 45px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--gray-color);
+    padding-bottom: 50px;
+}
+
+small.data {
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+}
+
+ul.redes-sociais {
+    text-align: center;
+}
+
+ul.redes-sociais {
+    list-style: none;
+}
+
+ul.redes-sociais li {
+    display: inline-block;
+}
+
+ul.redes-sociais li a img {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+ul.redes-sociais li a img:hover {
+    transform: scale(1.1);
+}
